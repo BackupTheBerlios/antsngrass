@@ -20,7 +20,7 @@ public class BugWorld implements MatrixController, GWindowEventHandler {
     animating = false;
     world = new BugWorldModel(r,c);
     views = new ArrayList();
-    views.add(new BugWorldView(r,c,10,10));
+    views.add(new BugWorldView(r,c,20,20));
     window = null;
     Iterator iter = views.iterator();
     while (iter.hasNext()) {
