@@ -33,7 +33,7 @@ public class BugWorldView implements MatrixView {
     this.cellHeight = cellHeight;
     surface = new GWindow("BugWorld View",colCount*cellWidth,rowCount*cellHeight);
     surface.setExitOnClose();
-    suspendRepaints();
+ /*   suspendRepaints();
     if (cellWidth >= 10) {
       for (int i=0; i<rowCount; i++) {
         Shape gridLine = new Line(0,i*cellHeight,colCount*cellWidth,i*cellHeight,Color.BLUE);
@@ -46,7 +46,7 @@ public class BugWorldView implements MatrixView {
       }
     }
     resumeRepaints();
-    
+   */ 
   }
   /**
    * @see MatrixView#getGWindow()

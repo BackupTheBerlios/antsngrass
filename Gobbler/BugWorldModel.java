@@ -19,12 +19,12 @@ public class BugWorldModel extends BasicMatrixModel {
     for (int i = 0; i < (rows*columns)/4; i++) {
       int r = (int) (Math.random() * rows);
       int c = (int) (Math.random() * columns);
-      bugs[r][c] = new Grass();
+      bugs[r][c] = new Pellet();
     }
     for (int i = 0; i < 5; i++) {
       int r = (int) (Math.random() * rows);
       int c = (int) (Math.random() * columns);
-      bugs[r][c] = new Insect();
+      bugs[r][c] = new Pacman();
     }
     return bugs;
   }

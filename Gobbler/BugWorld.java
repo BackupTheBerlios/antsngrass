@@ -1,6 +1,7 @@
 import uwcse.graphics.*;
 import sim.*;
 import java.util.*;
+
 /**
  * This class creates and manages an active surface for the Gobbler program.
  */
@@ -91,7 +92,7 @@ public class BugWorld implements MatrixController, GWindowEventHandler {
    * @see uwcse.graphics.GWindowEventHandler#keyPressed(uwcse.graphics.GWindowEvent)
    */
   public synchronized void keyPressed(GWindowEvent arg0) {
-    //  System.out.println(arg0);
+      System.out.println(arg0);
     if (arg0.getKey() == 's') {
       if (window != null) {
         animating = false;

@@ -1,0 +1,13 @@
+import sim.*;Critter cool = new Pellet();
+
+switch (cool.class){
+	case Pellet.class:
+	System.out.println("ya");
+	break;
+	case Insect.class:
+		System.out.println("no");
+		break
+	default:
+		
+		
+}
